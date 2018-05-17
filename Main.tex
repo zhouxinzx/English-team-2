@@ -1,0 +1,55 @@
+\documentclass[journal]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage[cmex10]{amsmath}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{algorithmic}
+\usepackage[linesnumbered,ruled,slide]{algorithm2e}
+\usepackage{amsfonts}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{verbatim}
+\usepackage{caption3}
+\usepackage[justification=centering]{caption}
+\usepackage{epstopdf}
+\usepackage{url}
+\usepackage{array,subfig}
+
+\begin{document}
+\pagestyle{empty}
+\thispagestyle{empty}
+\title{Acoustic Source Localization Based on 1-Bit Compressive Sensing in Sensor Networks\vspace{-1mm}}
+\maketitle
+
+\pagestyle{empty}
+\thispagestyle{empty}
+
+
+%\begin{abstract}
+
+%\end{abstract}
+
+%\begin{IEEEkeywords}
+
+%\end{IEEEkeywords}
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+Acoustic source localization (ASL) has extensive applications in military field and daily life, such as locating the shooter and determining the localization of speakers. Traditional ASL method usually utilized expensive sensors to get time of arrival (TOA) or time difference of arrival (TDOA), using concentrated localization algorithm to determine the source location, which have some limitations such as regard to strict clock synchronization of the multiple sensors, accuracy measurements, and concern about the large range of sense for specific applications. Wireless acoustic sensor networks (WASNs) with multiple microphone sensors are appropriate to solve these questions. In WASNs, the multiple wireless sensors can be physically deployed in a large localization area which communicate by ad-hoc network, so the long-range limitations disappear. However, the high cost of sensors and transmission quantity also trouble the researchers.
+
+In modern society, every one is equipped with smartphones. Thanks to their great computing and communication power, researchers concentrated more on smartphones with dual microphones and tried to utilize them as new sensors to reduce the system cost. People have used smartphones with dual microphones in real work. Zhu and Liu utilized the smartphones with double microphones to Snoop the Keystroke\cite{zhu2014context} \cite{liu2015snooping}. In this paper, we utilized smartphones as sensors and in order to decrease the transmission quantity, we also introduce 1-bit compressive sensing (CS), finally proposed 1-bit compressive sensing localization method to determine the acoustic source location. 1-bit compressive sensing is a new sampling method which is particularly attractive in all kinds of applications, due to its capability of reducing the communication and computational costs of local sensors. Petros proposed 1-bit compressive sensing that recovered the sparse signal within a scaling factor with 1-bit measurements\cite{boufounos20081}. Movahed introduced a 1-bit compressed sensing reconstruction algorithm that is robust against bit-flipping\cite{movahed2012robust}. CS has already shown good application prospects in the field of localization. Zhang proposed a novel compressive sensing based approach for sparse target counting and positioning in wireless sensor networks\cite{zhang2011sparse}. Feng proposed accurate and real-time indoor positioning solutions using compressive sensing\cite{feng2010compressive}. 
+
+Considering that 1-bit compressive sensing is particularly suitable for WASNs for its little energy consumption and communication bandwidth, we investigate the ASL from 1-bit measurements obtained by a large number of dual-microphone smartphones. ASL is modeled as the sparse recovery problem based on 1- bit compressive sensing. On the basis of the theory of 1-bit compressive sensing, we transmitted only 1-bit left/right binary code as the sensor data(0-left,1-right) in WASNs and proposed some bit-flipping tolerance algorithms to solve the localization problem. To our knowledge, localization with the 1-bit compressive sensing has not been considered in the literature before. The main contributions of this article are in the followings: 
+
+$\bullet$ We propose 1-bit CS localization method without clock synchronization and accuracy measurements, which is also robust to measurement error. 
+
+$\bullet$  We decrease the system development cost and transmission quantity.
+
+\bibliographystyle{elsarticle-num}
+\bibliography{references}  
+
+\end{document}

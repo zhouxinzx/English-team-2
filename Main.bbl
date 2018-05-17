@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{zhu2014context}
+T.~Zhu, Q.~Ma, S.~Zhang, Y.~Liu, Context-free attacks using keyboard acoustic
+  emanations, in: Proceedings of the 2014 ACM SIGSAC Conference on Computer and
+  Communications Security, ACM, 2014, pp. 453--464.
+
+\bibitem{liu2015snooping}
+J.~Liu, Y.~Wang, G.~Kar, Y.~Chen, J.~Yang, M.~Gruteser, Snooping keystrokes
+  with mm-level audio ranging on a single phone, in: Proceedings of the 21st
+  Annual International Conference on Mobile Computing and Networking, ACM,
+  2015, pp. 142--154.
+
+\bibitem{boufounos20081}
+P.~T. Boufounos, R.~G. Baraniuk, 1-bit compressive sensing, in: Information
+  Sciences and Systems, 2008. CISS 2008. 42nd Annual Conference on, IEEE, 2008,
+  pp. 16--21.
+
+\bibitem{movahed2012robust}
+A.~Movahed, A.~Panahi, G.~Durisi, A robust rfpi-based 1-bit compressive sensing
+  reconstruction algorithm, in: Information Theory Workshop (ITW), 2012 IEEE,
+  IEEE, 2012, pp. 567--571.
+
+\bibitem{zhang2011sparse}
+B.~Zhang, X.~Cheng, N.~Zhang, Y.~Cui, Y.~Li, Q.~Liang, Sparse target counting
+  and localization in sensor networks based on compressive sensing, in:
+  INFOCOM, 2011 Proceedings IEEE, IEEE, 2011, pp. 2255--2263.
+
+\bibitem{feng2010compressive}
+C.~Feng, W.~S.~A. Au, S.~Valaee, Z.~Tan, Compressive sensing based positioning
+  using rss of wlan access points, in: INFOCOM, 2010 Proceedings IEEE, Ieee,
+  2010, pp. 1--9.
+
+\end{thebibliography}
